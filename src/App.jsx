@@ -1,12 +1,17 @@
-function App() {
+import Header from './component/Header.jsx';
+import Hero from './component/Hero.jsx';
+import Contact from './component/Contact';
+import Footer from './component/Footer';
 
-
+const App = () => {
   return (
-    <>
-     <div className="text-danger">My first Page </div>
-     
-    </>
-  )
-}
+    <div >
+      <Header />
+      <Hero />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
