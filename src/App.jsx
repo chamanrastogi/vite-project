@@ -1,15 +1,10 @@
-import Header from './component/Header.jsx';
-import Hero from './component/Hero.jsx';
-import Contact from './component/Contact';
-import Footer from './component/Footer';
+import Loop from "./Loop";
+import Test from "./Test";
 
 const App = () => {
   return (
     <div >
-      <Header />
-      <Hero />
-      <Contact />
-      <Footer />
+      <Loop />
     </div>
   );
 };
