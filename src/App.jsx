@@ -1,10 +1,10 @@
-import Loop from "./Loop";
-import Test from "./Test";
+
+import ObjectComponet from './ObjectComponet';
 
 const App = () => {
   return (
-    <div >
-      <Loop />
+    <div>
+      <ObjectComponet/>
     </div>
   );
 };
