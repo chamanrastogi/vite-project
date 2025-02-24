@@ -4,10 +4,12 @@ import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
+
 const App = () => {
   
   return (
     <>
+    
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>} />
@@ -16,6 +18,7 @@ const App = () => {
       <Route path='/*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>
+   
     </>
   );
 };
