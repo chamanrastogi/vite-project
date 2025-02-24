@@ -11,9 +11,7 @@ const ObjectComponet = () => {
     };
   return (
     <div>
-
       {(()=>{
-
         return Object.entries(arr).map(([name, style], index) => {
           return <Button key={index} name={name.toUpperCase()} style={style} />;
         })
