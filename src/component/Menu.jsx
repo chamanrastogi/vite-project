@@ -14,6 +14,12 @@ const Menu = () => {
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/useref">Useref</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/testform">Testform</NavLink>
+          </li>
         </ul>
      
     </nav>
