@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -9,7 +9,7 @@ const Menu = () => {
             <NavLink className="nav-link" to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about">About</NavLink>
+            <NavLink className="nav-link" to="/about/20/chaman">About</NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
