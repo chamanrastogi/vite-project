@@ -18,6 +18,9 @@ const Menu = () => {
             <NavLink className="nav-link" to="/useref">Useref</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/apitest">Apitest</NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link" to="/testform">Testform</NavLink>
           </li>
         </ul>

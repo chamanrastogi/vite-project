@@ -19,11 +19,12 @@ const UserefPage = () => {
     }
     
   };
+  const vals = true;
   
- 
   return (
     <>
       <Menu />
+      <div className="row"><p className={`text-center pt-5 ${vals ? 'text-success' : 'text-danger'}`}>This is a test</p></div>
       <div ref={result}>-</div>
       <h2 ref={x}>15</h2>
 
@@ -36,8 +37,11 @@ const UserefPage = () => {
           </div>
           <InputAttributue/>
           <Changecss text="This is a sample text"/>
+
+          
         </div>
       </div>
+      
     </>
   );
 };

@@ -1,9 +1,13 @@
 import { useRef } from 'react';
+import PropTypes from 'prop-types';
 
 const Changecss = (props) => {
     let testType = useRef(null);
     const change = () => {
-        testType.current.style.color ='red';
+        testType.current.style.color ='red';        
+        testType.current.classList.add('bg-dark');
+
+        console.log(testType);
     }
     const changeFont = () => {
         console.log(testType);
@@ -19,6 +23,9 @@ const Changecss = (props) => {
             <button onClick={changeFont}  className='btn btn-warning me-2'>Change Font Size 50px</button>
         </div>
     );
+};
+Changecss.propTypes = {
+    text: PropTypes.string.isRequired,
 };
 
 export default Changecss;

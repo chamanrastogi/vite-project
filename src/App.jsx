@@ -5,6 +5,7 @@ import Contact from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import Useref from "./component/UserefPage";
 import TestForm from "./TestForm";
+import ApiTest from "./ApiTest";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/contact' element={<Contact/>} />
       <Route path='/useref' element={<Useref/>} />
       <Route path='/testform' element={<TestForm/>} />
+      <Route path='/apitest' element={<ApiTest/>} />
       <Route path='/*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>
