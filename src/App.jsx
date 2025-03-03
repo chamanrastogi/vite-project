@@ -6,6 +6,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Useref from "./component/UserefPage";
 import TestForm from "./TestForm";
 import ApiTest from "./ApiTest";
+import TryuseState from "./TryuseState";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/useref' element={<Useref/>} />
       <Route path='/testform' element={<TestForm/>} />
       <Route path='/apitest' element={<ApiTest/>} />
+      <Route path='/tryusestate' element={<TryuseState/>} />
       <Route path='/*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>

@@ -21,6 +21,9 @@ const Menu = () => {
             <NavLink className="nav-link" to="/apitest">Apitest</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/tryusestate">Try Use State</NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link" to="/testform">Testform</NavLink>
           </li>
         </ul>
