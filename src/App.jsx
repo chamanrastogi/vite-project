@@ -7,13 +7,15 @@ import Useref from "./component/UserefPage";
 import TestForm from "./TestForm";
 import ApiTest from "./ApiTest";
 import TryuseState from "./TryuseState";
+import TryuseStateobj from "./TryuseStateobj";
+import TryuseStatearr from "./TryuseStatearr";
+import TryuseStateForm from "./TryuseStateForm";
 
 
 const App = () => {
   
   return (
-    <>
-    
+    <>    
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>} />
@@ -23,6 +25,9 @@ const App = () => {
       <Route path='/testform' element={<TestForm/>} />
       <Route path='/apitest' element={<ApiTest/>} />
       <Route path='/tryusestate' element={<TryuseState/>} />
+      <Route path='/tryusestateobj' element={<TryuseStateobj/>} />
+      <Route path='/tryusestatearr' element={<TryuseStatearr/>} />
+      <Route path='/tryusestateform' element={<TryuseStateForm/>} />
       <Route path='/*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>

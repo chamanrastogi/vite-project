@@ -24,6 +24,15 @@ const Menu = () => {
             <NavLink className="nav-link" to="/tryusestate">Try Use State</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/tryusestateobj">Try Use State Object</NavLink>
+          </li>  
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/tryusestatearr">Try Use State Array</NavLink>
+          </li>  
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/tryusestateform">Try Use State Form</NavLink>
+          </li>         
+          <li className="nav-item">
             <NavLink className="nav-link" to="/testform">Testform</NavLink>
           </li>
         </ul>
