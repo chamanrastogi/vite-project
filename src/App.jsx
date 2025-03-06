@@ -10,6 +10,10 @@ import TryuseState from "./TryuseState";
 import TryuseStateobj from "./TryuseStateobj";
 import TryuseStatearr from "./TryuseStatearr";
 import TryuseStateForm from "./TryuseStateForm";
+import TryUseeffect from "./TryUseeffect";
+import TryUseeffectwithfunction from "./TryUseeffectwithfunction";
+import Showproducts from "./Showproducts";
+import Viewproduct from "./Viewproduct";
 
 
 const App = () => {
@@ -28,6 +32,10 @@ const App = () => {
       <Route path='/tryusestateobj' element={<TryuseStateobj/>} />
       <Route path='/tryusestatearr' element={<TryuseStatearr/>} />
       <Route path='/tryusestateform' element={<TryuseStateForm/>} />
+      <Route path='/tryuseeffect' element={<TryUseeffect/>} />
+      <Route path='/tryuseeffectwithfunction' element={<TryUseeffectwithfunction/>} />
+      <Route path='/showproducts' element={<Showproducts/>} />
+      <Route path='/viewproduct/:id' element={<Viewproduct/>} />
       <Route path='/*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>
